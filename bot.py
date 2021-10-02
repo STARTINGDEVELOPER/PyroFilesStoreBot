@@ -47,8 +47,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Join Our Group", url="https://t.me/DevsZone"),
+                        InlineKeyboardButton("Join Our Channel", url="https://t.me/Discovery_Updates")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -281,7 +281,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
+                        InlineKeyboardButton("Source Code",
                                              url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
                     ],
                     [
@@ -300,7 +300,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
+                        InlineKeyboardButton("Source Code",
                                              url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
                     ],
                     [
@@ -319,8 +319,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Join Our Group", url="https://t.me/joinchat/ma77MsDYgo0xOGRl"),
+                        InlineKeyboardButton("Join Our Channel", url="https://t.me/joinchat/dwKOx_WS7802YjBl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
