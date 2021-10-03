@@ -47,8 +47,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Join Our Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Join Our Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Join Our Channel", url="https://t.me/joinchat/ma77MsDYgo0xOGRl"),
+                        InlineKeyboardButton("Join Our Group", url="https://t.me/joinchat/dwKOx_WS7802YjBl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -349,10 +349,10 @@ async def button(bot: Client, cmd: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("Join Our Channel", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
+                                InlineKeyboardButton("💫 Joined 💫", callback_data="refreshmeh")
                             ]
                         ]
                     ),
@@ -373,8 +373,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Join Our Channel", url="https://t.me/joinchat/ma77MsDYgo0xOGRl"),
+                        InlineKeyboardButton("Join Our Group", url="https://t.me/joinchat/dwKOx_WS7802YjBl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
